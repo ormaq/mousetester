@@ -1,13 +1,12 @@
-namespace SimpleWinFormsApp;
-
-static class Program
+namespace MouseTester
 {
-
-    [STAThread]
-    static void Main()
+    internal static class Program
     {
-
-        ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
-    }    
+        [STAThread]
+        private static void Main()
+        {
+            ApplicationConfiguration.Initialize();
+            Application.Run(new MainForm());
+        }
+    }
 }

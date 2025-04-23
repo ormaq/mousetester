@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JohnE\\Desktop\\SimpleWinFormsApp\\SimpleWinFormsApp.csproj": {}
+    "C:\\Users\\JohnE\\Desktop\\mousetester\\SimpleWinFormsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JohnE\\Desktop\\SimpleWinFormsApp\\SimpleWinFormsApp.csproj": {
+    "C:\\Users\\JohnE\\Desktop\\mousetester\\SimpleWinFormsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JohnE\\Desktop\\SimpleWinFormsApp\\SimpleWinFormsApp.csproj",
-        "projectName": "SimpleWinFormsApp",
-        "projectPath": "C:\\Users\\JohnE\\Desktop\\SimpleWinFormsApp\\SimpleWinFormsApp.csproj",
+        "projectUniqueName": "C:\\Users\\JohnE\\Desktop\\mousetester\\SimpleWinFormsApp.csproj",
+        "projectName": "MouseTester",
+        "projectPath": "C:\\Users\\JohnE\\Desktop\\mousetester\\SimpleWinFormsApp.csproj",
         "packagesPath": "C:\\Users\\JohnE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JohnE\\Desktop\\SimpleWinFormsApp\\obj\\",
+        "outputPath": "C:\\Users\\JohnE\\Desktop\\mousetester\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JohnE\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,22 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )",
+              "autoReferenced": true
+            },
+            "ScottPlot.WinForms": {
+              "target": "Package",
+              "version": "[5.0.55, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,6 +78,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
