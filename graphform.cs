@@ -130,7 +130,7 @@ namespace MouseTester
                 case "X-velocity vs time":  plt.Add.Scatter(t, vx);                     break;
                 case "Y-velocity vs time":  plt.Add.Scatter(t, vy);                     break;
                 case "XY-velocity vs time": plt.Add.Scatter(t, vxy);                    break;
-                case "Sum X vs CSm Y":      plt.Add.Scatter(sumX, sumY);                break;
+                case "Sum X vs Sum Y":      plt.Add.Scatter(sumX, sumY);                break;
             }
 
             plt.Title(_cmbPlot.SelectedItem?.ToString());
